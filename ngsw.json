@@ -1,0 +1,106 @@
+{
+  "configVersion": 1,
+  "timestamp": 1610569067399,
+  "index": "https://jcambaf.github.io/PAC5/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://jcambaf.github.io/PAC5/favicon.ico",
+        "https://jcambaf.github.io/PAC5/index.html",
+        "https://jcambaf.github.io/PAC5/main.4d269512a4e1bf514b8b.js",
+        "https://jcambaf.github.io/PAC5/manifest.webmanifest",
+        "https://jcambaf.github.io/PAC5/polyfills.8c151b8375e767ff858f.js",
+        "https://jcambaf.github.io/PAC5/runtime.0e49e2b53282f40c8925.js",
+        "https://jcambaf.github.io/PAC5/styles.08f1088c96a053cb9531.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.0-beta1\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://jcambaf.github.io/PAC5/assets/css/animate.css",
+        "https://jcambaf.github.io/PAC5/assets/icons/icon-128x128.png",
+        "https://jcambaf.github.io/PAC5/assets/icons/icon-144x144.png",
+        "https://jcambaf.github.io/PAC5/assets/icons/icon-152x152.png",
+        "https://jcambaf.github.io/PAC5/assets/icons/icon-192x192.png",
+        "https://jcambaf.github.io/PAC5/assets/icons/icon-384x384.png",
+        "https://jcambaf.github.io/PAC5/assets/icons/icon-512x512.png",
+        "https://jcambaf.github.io/PAC5/assets/icons/icon-72x72.png",
+        "https://jcambaf.github.io/PAC5/assets/icons/icon-96x96.png",
+        "https://jcambaf.github.io/PAC5/assets/img/conor-obrien-nKZuhvCGGQU-unsplash.jpg",
+        "https://jcambaf.github.io/PAC5/assets/img/qasim-sadiq-A4FN0SPut6w-unsplash.jpg",
+        "https://jcambaf.github.io/PAC5/conor-obrien-nKZuhvCGGQU-unsplash.f16ace731b2d5abd4a96.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "posts-api",
+      "patterns": [
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://jcambaf.github.io/PAC5/assets/css/animate.css": "3dc70f1a3c29089a27418c9ce431cb439f41a5ad",
+    "https://jcambaf.github.io/PAC5/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://jcambaf.github.io/PAC5/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://jcambaf.github.io/PAC5/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://jcambaf.github.io/PAC5/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://jcambaf.github.io/PAC5/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://jcambaf.github.io/PAC5/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://jcambaf.github.io/PAC5/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://jcambaf.github.io/PAC5/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://jcambaf.github.io/PAC5/assets/img/conor-obrien-nKZuhvCGGQU-unsplash.jpg": "a8ec85f5e8b1cb2c743fb9e81daf71c917e22bc3",
+    "https://jcambaf.github.io/PAC5/assets/img/qasim-sadiq-A4FN0SPut6w-unsplash.jpg": "77eceb8badfb64da60062cdd0e59627fc2739f43",
+    "https://jcambaf.github.io/PAC5/conor-obrien-nKZuhvCGGQU-unsplash.f16ace731b2d5abd4a96.jpg": "a8ec85f5e8b1cb2c743fb9e81daf71c917e22bc3",
+    "https://jcambaf.github.io/PAC5/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://jcambaf.github.io/PAC5/index.html": "0f47b42320fcbff2f8d5bfd46324da5a4c386eb1",
+    "https://jcambaf.github.io/PAC5/main.4d269512a4e1bf514b8b.js": "d9abea5c43cb70833db557cd59ca0981df984762",
+    "https://jcambaf.github.io/PAC5/manifest.webmanifest": "647db4fba4be264d65d1cbc9d3c6606d05610dcf",
+    "https://jcambaf.github.io/PAC5/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "https://jcambaf.github.io/PAC5/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://jcambaf.github.io/PAC5/styles.08f1088c96a053cb9531.css": "b21b12a460b41dc04ffc5b15dc58d019a520be39"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
