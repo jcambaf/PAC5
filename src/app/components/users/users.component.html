@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Users</h1>
+  <ul class="list-group">
+    <a *ngFor="let user of users" [routerLink]="['/user', user.userId, user.countPost]" class="list-group-item list-group-item-action d-flex justify-content-between animate__animated animate__bounce animate__fadeIn">
+      User Id: {{user.userId}}
+      <span class="badge bg-primary rounded-pill">{{user.countPost}}</span>
+    </a>
+  </ul>
